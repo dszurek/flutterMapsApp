@@ -27,7 +27,7 @@ class _MapsAppState extends State<MapsApp> {
   late final MapController _mapController;
   late final destinationMarker = <Marker>[];
   final OpenRouteService client = OpenRouteService(
-      apiKey: '5b3ce3597851110001cf6248ed7cd847b2184aa0af0762fe45552eb6');
+      apiKey: ''); // Need OpenRouteService key
 
   List<dynamic> segments = [];
 
@@ -164,7 +164,7 @@ class _MapsAppState extends State<MapsApp> {
           children: [
             TileLayer(
               urlTemplate:
-                  'https://api.mapbox.com/styles/v1/dszurek/clgqubrcl000m01pabold0i4s/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZHN6dXJlayIsImEiOiJjbGVpdG4zODYwNG9rM3ByMGpxZjh3dmR6In0.BsJeNSZ_unOyKTFqunvknw', //mapbox Tiles key
+                  '', //Mapbox Tiles Key, in the form of website
               userAgentPackageName: 'infotainment',
             ),
             CurrentLocationLayer(
@@ -232,7 +232,7 @@ class _MapsAppState extends State<MapsApp> {
                           ),
                           textEditingController: _searchController,
                           googleAPIKey:
-                              "AIzaSyBLf5FhDKK_9Ln3svx1JsrMu0JszZkumZs", //google Places API key
+                              "", //Need Google Places API key
                           inputDecoration: InputDecoration(
                             hintText: "Search",
                             fillColor: Colors.white,
