@@ -1,8 +1,11 @@
 I am still actively working on this application, and will update this as time goes on. 
 
-I am only including code that I write myself, so main.dart is not included (some assembly required if trying to run on your own machine, also have to initialize a flutter project).
-
 Images of application running can be found in the Images folder of the Wiki.
+
+NOTE
+I am only including code that I write myself, so main.dart is not included (some assembly required if trying to run on your own machine, also have to initialize a flutter project).
+I am also excluding the API keys needed for this to function (OpenRouteService, Google Places, and MapBox tiles) so you will need to input your own.
+
 
 KNOWN ISSUES
 
