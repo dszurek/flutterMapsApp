@@ -10,9 +10,7 @@ You must initialize your own flutter project, and add this code to it. I am also
 
 KNOWN ISSUES
 
-* This application runs fine on MacOS as far as I can tell, tested on an Intel Macbook Pro 
-* However, if running on Windows through Google Chrome, search bar functionality does not appear to work
-* Occasionally, routes will not begin at the location of the user
+* Search bar does not work when debugging through Google Chrome due to CORS restrictions
 
 PLANNED FEATURES
 
